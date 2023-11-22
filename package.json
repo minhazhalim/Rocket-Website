@@ -1,0 +1,15 @@
+{
+  "name": "acme-website",
+  "version": "1.0.0",
+  "description": "Create a Landing Page Using HTML,JavaScript and TailwindCSS v.3",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwindcss": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write ./build/*.html"
+  },
+  "author": "Minhaz Halim",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.1.13"
+  }
+}
